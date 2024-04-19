@@ -47,6 +47,10 @@ public class Main {
             }
             array.add(list);
         }
+        Double xLast = array.getLast().getFirst().getFirst();
+        var result = price + coef + xLast;
+        System.out.println();
+        System.out.println("Z1(0) = " + price + " + " + coef + "(1) + " + xLast + " = " + result);
 
     }
 
