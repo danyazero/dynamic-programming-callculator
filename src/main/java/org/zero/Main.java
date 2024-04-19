@@ -96,7 +96,7 @@ public class Main {
             rightPart = price * Math.pow(2, -1);
             res = leftPart - rightPart;
         }
-        System.out.println(t + ": " + leftPart + getSymbol(num) + "(" + rightPart + ") = " + res);
+        System.out.println(t + ": " + leftPart + getSymbol(num) + rightPart + " = " + res);
         return res;
     }
 }
